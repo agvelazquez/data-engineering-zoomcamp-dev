@@ -1,0 +1,4 @@
+Host de-zoomcamp
+	HostName ExternalIP
+	User UserName
+	IdentityFile gcpCodePath
