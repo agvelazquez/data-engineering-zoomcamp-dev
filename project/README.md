@@ -4,7 +4,7 @@
 
 **Ukraine humanitarian crisis.** The project will showcase an daily update of the consequences of the war in Ukraine. The idea is using this space to show the terrible consequences of the war with daily updates on the death toll and news. 
 
-Using Python for data ingestion and Airflow for pipeline orchestation the infrastructure will consume death toll information for UN daily update, russian casualities from Kaggle dataset and news from Twitter. 
+Using Python for data ingestion and Airflow for pipeline orchestation the infrastructure will consume death toll information for UN daily update, russian casualities from Github dataset and news from Twitter. 
 
 Information will be hosted in GCP and processed using SQL and DBT.   
 
@@ -14,7 +14,7 @@ The final output is a dashboard in Data Studio centralizing the information and 
 
 * United Nations Human Rights website (https://www.ohchr.org/)
 * Twitter (https://twitter.com/)
-* Kaggle dataset (https://www.kaggle.com/datasets/piterfm/2022-ukraine-russian-war?select=russia_losses_equipment.csv)
+* Github (https://github.com/PetroIvaniuk/2022-Ukraine-Russia-War-Dataset)
 
 ## Technologies
 * *Google Cloud Platform (GCP)*: Cloud-based auto-scaling platform by Google
