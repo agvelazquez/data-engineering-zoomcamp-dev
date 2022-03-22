@@ -23,8 +23,15 @@
 	- Docker compose 
 				- Donwload latest version from Github using wget https://github.com/docker/compose/ -O docker-compose
 				- chmod +x FileName to change file to executable
-				- Edite the .bashrc file
-	- Git repo. Clone this Github repo in the VM using HTTPS
+				- Edite the .bashrc file with the path for docker compose like 
+					export PATH="${HOME}/bin:${PATH}"
+				-Run source .bashrc
+	- Terraform
+				- Download the latest Linux binary version for Amd64 using wget 
+				- unzip the file
+				- Create a service account to be used by terraform
+	- Git repo 
+				- Clone this Github repo in the VM using HTTPS
 
 
 *Is it possible to run Terraform locally using a service account to connect to GCP and create the VM using the same Terraform code. Current local access doesn't allow me to install most of the tools needed. 
