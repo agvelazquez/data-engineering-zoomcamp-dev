@@ -3,9 +3,6 @@
 **Hosted by https://datatalks.club/**
 
 - **Start**: 17 January 2022
-- **Registration link**: https://airtable.com/shr6oVXeQvSI5HuWD
-- Register in [DataTalks.Club's Slack](https://datatalks.club/slack.html)
-- Join the [`#course-data-engineering`](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG) channel
 - The videos are published to [DataTalks.Club's YouTube channel](https://www.youtube.com/c/DataTalksClub) in [the course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb) 
 
 ## Folders
