@@ -1,6 +1,6 @@
-# Data Engineering Zoomcamp course
+## Data Engineering Zoomcamp course
 
-** Hosted by https://datatalks.club/ **
+**Hosted by https://datatalks.club/**
 
 - **Start**: 17 January 2022
 - **Registration link**: https://airtable.com/shr6oVXeQvSI5HuWD
