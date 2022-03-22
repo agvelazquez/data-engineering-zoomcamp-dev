@@ -7,7 +7,7 @@
 	- Machine type: E2-standard-4 (4 vCPU, 16 GB memory)
 	- Ubuntu 20.04 LTS. 60 GB boot disk.
 	- Allow full access to all Cloud APIs.
-	- Allow HTTP/HTTPS traffic.
+	- Allow HTTP/HTTPS traffic. 
 4- Generate SSH key. You can follow the next link. 
 5- Add the public generated ssh key to GCP -> Compute Engine -> Metadata
 6- If you are using Windows locally, move the private and public keys to the ./.ssh folder.
