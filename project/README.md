@@ -16,7 +16,7 @@ The final output is a dashboard in Data Studio centralizing the information and 
 * Twitter (https://twitter.com/)
 * Kaggle dataset (https://www.kaggle.com/datasets/piterfm/2022-ukraine-russian-war?select=russia_losses_equipment.csv)
 
-### Technologies
+## Technologies
 * *Google Cloud Platform (GCP)*: Cloud-based auto-scaling platform by Google
   * *Google Cloud Storage (GCS)*: Data Lake
   * *BigQuery*: Data Warehouse
@@ -27,7 +27,7 @@ The final output is a dashboard in Data Studio centralizing the information and 
 * *Airflow*: Pipeline Orchestration
 * *dbt*: Data Transformation
 
-### Project Diagram
+## Project Diagram
 
 <div align="center">
   <img src="https://github.com/agvelazquez/data-engineering-zoomcamp-dev/blob/main/project/project_diagram.svg"><br>
