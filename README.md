@@ -1,18 +1,21 @@
-# Data Engineering Zoomcamp
+# Data Engineering Zoomcamp course
+
+** Hosted by https://datatalks.club/ **
 
 - **Start**: 17 January 2022
 - **Registration link**: https://airtable.com/shr6oVXeQvSI5HuWD
 - Register in [DataTalks.Club's Slack](https://datatalks.club/slack.html)
 - Join the [`#course-data-engineering`](https://app.slack.com/client/T01ATQK62F8/C01FABYF2RG) channel
-- Subscribe to our [public Google Calendar](https://calendar.google.com/calendar/?cid=ZXIxcjA1M3ZlYjJpcXU0dTFmaG02MzVxMG9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (it works from Desktop only)
 - The videos are published to [DataTalks.Club's YouTube channel](https://www.youtube.com/c/DataTalksClub) in [the course playlist](https://www.youtube.com/playlist?list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb) 
-- [Leaderboard](https://docs.google.com/spreadsheets/d/e/2PACX-1vR9oQiYnAVvzL4dagnhvp0sngqagF0AceD0FGjhS-dnzMTBzNQIal3-hOgkTibVQvfuqbQ69b0fvRnf/pubhtml)
 
-## Syllabus
+## Folders
+- **course**: Scripts of different tools built for some of the homeworks.
+- **project**: Final project structure and repository.
 
-> **Note**: This is preliminary and may change
 
-### [Week 1: Introduction & Prerequisites](week_1_basics_n_setup)
+## Course Syllabus
+
+### Week 1: Introduction & Prerequisites
 
 * Course overview
 * Introduction to GCP
@@ -22,10 +25,8 @@
 * Preparing the environment for the course
 * Homework
 
-[More details](week_1_basics_n_setup)
 
-
-### [Week 2: Data ingestion](week_2_data_ingestion)
+### Week 2: Data ingestion
 
 * Data Lake
 * Workflow orchestration
@@ -35,11 +36,8 @@
 * Moving data from AWS to GCP (Transfer service)
 * Homework
 
-[More details](week_2_data_ingestion)
 
-
-
-### [Week 3: Data Warehouse](week_3_data_warehouse)
+### Week 3: Data Warehouse
 
 Goal: Structuring data into a Data Warehouse
 
@@ -58,7 +56,7 @@ Instructor: Ankush
 Duration: 1-1.5h
 
 
-### [Week 4: Analytics engineering](week_4_analytics_engineering/taxi_rides_ny/)
+### Week 4: Analytics engineering
 
 Goal: Transforming Data in DWH to Analytical Views
 
@@ -70,10 +68,8 @@ Instructor: Victoria
 
 Duration: 2h    
 
-[More details](week_4_analytics_engineering)
 
-
-### [Week 5: Batch processing](week_5_batch_processing)
+### Week 5: Batch processing
 
 Goal: 
 
@@ -92,7 +88,7 @@ Instructor: Alexey
 
 Duration: 1-1.5h
 
-### [Week 6: Streaming](week_6_stream_processing)
+### Week 6: Streaming
 
 Goal: 
 
@@ -114,7 +110,7 @@ Duration: 1.5h
 
 
 
-### [Week 7, 8 & 9: Project](project)
+### Week 7, 8 & 9: Project
 
 * Putting everything we learned to practice
 
@@ -132,10 +128,6 @@ Duration: 2-3 weeks
   
 Duration: 30 mins
 
-## Overview
-
-### Architecture diagram
-<img src="images/architecture/arch_1.jpg"/>
 
 ### Technologies
 * *Google Cloud Platform (GCP)*: Cloud-based auto-scaling platform by Google
@@ -150,15 +142,6 @@ Duration: 30 mins
 * *Kafka*: Streaming
 
 
-### Prerequisites
-
-To get most out of this course, you should feel comfortable with coding and command line,
-and know the basics of SQL. Prior experience with Python will be helpful, but you can pick 
-Python relatively fast if you have experience with other programming languages.
-
-Prior experience with data engineering is not required.
-
-
 
 ## Instructors
 
@@ -166,14 +149,3 @@ Prior experience with data engineering is not required.
 - Sejal Vaidya (https://linkedin.com/in/vaidyasejal)
 - Victoria Perez Mola (https://www.linkedin.com/in/victoriaperezmola/)
 - Alexey Grigorev (https://linkedin.com/in/agrigorev)
-
-## Tools 
-
-For this course you'll need to have the following software installed on your computer:
-
-* Docker and Docker-Compose
-* Python 3 (e.g. via [Anaconda](https://www.anaconda.com/products/individual))
-* Google Cloud SDK 
-* Terraform
-
-See [Week 1](week_1_basics_n_setup) for more details about installing these tools
