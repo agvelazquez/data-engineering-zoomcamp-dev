@@ -1,13 +1,13 @@
 ### How to run the project 
 
-1- Create an account on GCP
-2- Create a new project
-3- Create a VM in Google by enabling the Compute Engine API.*
-	- Select region and zone. Example: "us-central1 (Iowa)" and zone "us-central1-a". 
-	- Machine type: E2-standard-4 (4 vCPU, 16 GB memory)
-	- Ubuntu 20.04 LTS. 60 GB boot disk.
-	- Allow full access to all Cloud APIs.
-	- Allow HTTP/HTTPS traffic. 
+* Create an account on GCP
+* Create a new project
+* Create a VM in Google by enabling the Compute Engine API.*
+	* Select region and zone. Example: "us-central1 (Iowa)" and zone "us-central1-a". 
+	* Machine type: E2-standard-4 (4 vCPU, 16 GB memory)
+	* Ubuntu 20.04 LTS. 60 GB boot disk.
+	* Allow full access to all Cloud APIs.
+	* Allow HTTP/HTTPS traffic. 
 4- Generate SSH key. You can follow the next link. 
 5- Add the public generated ssh key to GCP -> Compute Engine -> Metadata
 6- If you are using Windows locally, move the private and public keys to the ./.ssh folder.
