@@ -29,7 +29,7 @@ The final output is a dashboard in Data Studio centralizing the information and 
 ### Project Diagram
 
 <div align="center">
-  <img src="https://app.diagrams.net/#Hagvelazquez%2Fdata-engineering-zoomcamp-dev%2Fmain%2Fproject%2FUntitled%20Diagram.drawio"><br>
+  <img src="https://github.com/agvelazquez/data-engineering-zoomcamp-dev/blob/main/project/project_diagram.svg"><br>
 </div>
 
 
