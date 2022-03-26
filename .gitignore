@@ -134,3 +134,5 @@ dmypy.json
 
 #credentials
 ./project/src/de-course-project-credentials.json
+
+data-engineering-zoomcamp-dev/project/src/de-course-project-credentials.json
