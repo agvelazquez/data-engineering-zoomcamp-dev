@@ -129,8 +129,8 @@ dmypy.json
 .pyre/
 
 #terraform 
-.project/src/.terraform/
-.project/src/.terraform.lock.hcl
+./project/src/.terraform/
+./project/src/.terraform.lock.hcl
 
 #credentials
-.project/src/de-course-project-credentials.json
+./project/src/de-course-project-credentials.json
