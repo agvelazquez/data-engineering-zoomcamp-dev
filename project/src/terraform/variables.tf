@@ -22,7 +22,7 @@ variable "zone" {
 
 variable "credentials" {
   description = "Path for to the credentials json file"
-  default     = "../de-course-project-credentials.json"
+  default     = "../.google/credentials/de-course-project-credentials.json"
 }
 
 variable "storage_class" {

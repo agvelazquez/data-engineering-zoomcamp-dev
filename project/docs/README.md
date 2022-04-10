@@ -83,6 +83,14 @@ For this purpose we are going to use terraform.
 	```
 * You should see all the changes applied. 
 
+## Set-up airflow 
+
+	```shell
+	mkdir -p ./dags ./logs ./plugins
+	echo -e "AIRFLOW_UID=$(id -u)" > .env
+	```
+
+
 
 ## Useful links: 
 
@@ -92,3 +100,14 @@ For this purpose we are going to use terraform.
 * https://docs.divio.com/en/latest/reference/docker-docker-compose/
 
 * https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_2_data_ingestion/airflow
+
+* https://adamtheautomator.com/docker-compose-environment-variables/
+
+### Bash 
+
+* https://www.howtogeek.com/439199/15-special-characters-you-need-to-know-for-bash/
+
+
+To run bash in docker container 
+
+docker exec -it <container-ID> bash

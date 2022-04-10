@@ -129,10 +129,11 @@ dmypy.json
 .pyre/
 
 #terraform 
-./project/src/.terraform/
-./project/src/.terraform.lock.hcl
+/project/src/.terraform/
+/project/src/.terraform.lock.hcl
+
+#airflow
+/project/src/airflow/logs
 
 #credentials
-./project/src/de-course-project-credentials.json
-
-data-engineering-zoomcamp-dev/project/src/de-course-project-credentials.json
+/project/src/.google/
