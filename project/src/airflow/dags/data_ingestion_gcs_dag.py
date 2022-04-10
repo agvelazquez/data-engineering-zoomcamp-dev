@@ -35,7 +35,7 @@ def from_json_2_csv(url, path_to_local_home):
     import pandas as pd
     df = pd.read_json(url)
     filename = get_filename(url)
-    df.to_csv(f"{path_to_local_home}/{filename}")
+    df.to_csv(f"{path_to_local_home}/{filename}", index=False)
 
 
 def format_to_parquet(url, path_to_local_home):
@@ -76,7 +76,7 @@ default_args = {
     "start_date": datetime(2022,4,1),
     "end_date":datetime(2022,12,31),
     "depends_on_past": False,
-    "retries": 0,
+    "retries": 1,
 }
 
 # NOTE: DAG declaration - using a Context Manager (an implicit way)
@@ -92,6 +92,7 @@ with DAG(
 
     for url in github_url:
         parquet_file = get_filename(url).replace('.csv', '.parquet')
+        table_name = get_filename(url).replace('.csv', '')
         download_dataset_task = PythonOperator(
             task_id=f"from_json_2_csv_task_{os.path.basename(urlparse(url).path)}",
             python_callable=from_json_2_csv,
@@ -126,7 +127,7 @@ with DAG(
                 "tableReference": {
                     "projectId": PROJECT_ID,
                     "datasetId": "raw",
-                    "tableId": "russia_losses_equipment",
+                    "tableId": table_name,
                 },
                 "externalDataConfiguration": {
                     "sourceFormat": "PARQUET",
