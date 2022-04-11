@@ -1,0 +1,20 @@
+version: 2
+
+models: 
+  - name: fact_russia_losses_personnel
+    description: Number of losses by date. The amoun is accumulated day by day. 
+    columns:
+      - name: date
+        tests: 
+            - not_null:
+                severity: error
+
+  - name: fact_russia_losses_equipment
+    description: Equipment lost in the russia army by date.
+    columns:
+      - name: date
+        tests: 
+            - not_null:
+                severity: error
+
+
